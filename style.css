@@ -102,4 +102,19 @@ body {
     color: #111010;
     text-align: justify;
   }
+
+  .site-footer{
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  #btn-buy-tablets{
+    background: #b9b271;
+    color: #0f0c0c;
+    border: 5px solid #af4545;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 36px;
+    cursor: pointer;
+  }
   
