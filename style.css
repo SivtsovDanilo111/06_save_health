@@ -4,7 +4,7 @@ body {
     font-size: 14px;
     line-height:20px;
     color: #000000;
-    background: #ffffff url("img/lovepik-valentines-day-background-image_400145517.jpg") no-repeat 50% 0;
+    background: #ffffff url("img/DALL·E\ 2025-03-04\ 13.11.16\ -\ A\ minimalistic\ medical-themed\ background.\ The\ image\ should\ feature\ a\ clean\,\ white\ and\ light\ blue\ gradient\ backdrop\ with\ subtle\ abstract\ medical\ icons.jpg.webp") no-repeat 50% 0;
     background-size: cover;
    
   }
@@ -114,7 +114,17 @@ body {
     border: 5px solid #af4545;
     border-radius: 10px;
     padding: 5px 20px;
-    font-size: 36px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #count-of-tablets{
+    background: #b9b271;
+    color: #0f0c0c;
+    border: 5px solid #af4545;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
     cursor: pointer;
   }
   
