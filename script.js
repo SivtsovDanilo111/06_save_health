@@ -32,6 +32,13 @@ const arrayOfLoveWishes = [
   "Радійте життю і більше смійтеся – це зміцнює імунітет!"
 ];
 
+const arrayOfImages = [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "doctor-isolated-white-background.jpg"
+];
+
 let countOfPills = 5;
 const countDisplay = document.getElementById('count-of-tablets');
 const loveWishesBtn = document.getElementById('btn_love_wishes');
@@ -63,22 +70,22 @@ buyTabletsBtn.addEventListener('click', () => {
 
 let galeryImage = 1;
 
-document.getElementById("main-image").setAttribute("src", `img/galery/${galeryImage}.jpg`)
+document.getElementById("main-image").setAttribute("src", `img/galery/${arrayOfImages[galeryImage-1]}`)
 
 document.getElementById('right-arrow').addEventListener('click', () => {
   galeryImage++;
   console.log(galeryImage);
-  if (galeryImage == 4 ) galeryImage = 1;
+  if (galeryImage == arrayOfImages.length + 1 ) galeryImage = 1;
 
-  document.getElementById("main-image").setAttribute("src", `img/galery/${galeryImage}.jpg`)
+  document.getElementById("main-image").setAttribute("src", `img/galery/${arrayOfImages[galeryImage-1]}`)
 });
 
-document.getElementById("main-image").setAttribute("src", `img/galery/${galeryImage}.jpg`)
+document.getElementById("main-image").setAttribute("src", `img/galery/${arrayOfImages[galeryImage-1]}`)
 
 document.getElementById('left-arrow').addEventListener('click', () => {
   galeryImage--;
   console.log(galeryImage);
-  if (galeryImage == 0 ) galeryImage = 1;
+  if (galeryImage == 0 ) galeryImage = 4;
 
-  document.getElementById("main-image").setAttribute("src", `img/galery/${galeryImage}.jpg`)
+  document.getElementById("main-image").setAttribute("src", `img/galery/${arrayOfImages[galeryImage-1]}`)
 });
