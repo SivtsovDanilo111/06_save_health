@@ -165,4 +165,21 @@ box-shadow: 10px 20px 10px rgba(0,0,0,0.5);
     font-size: 20px;
     cursor: pointer;
   }
+
+  /* Вітаміни */
+  #p-vitamins{
+   display: flex;
+   flex-direction:row ;
+   justify-content: space-around;
+   flex-wrap: wrap;
+  }
+   /* .vitamins{
+    border: 1px solid #8b7b7b;
+     margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+  }  */
   

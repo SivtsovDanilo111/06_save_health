@@ -89,3 +89,64 @@ document.getElementById('left-arrow').addEventListener('click', () => {
 
   document.getElementById("main-image").setAttribute("src", `img/galery/${arrayOfImages[galeryImage-1]}`)
 });
+
+const arreyOfObjects = [
+  {
+    id:1,
+    title: "Аевіт",
+    photo: "",
+    description: "",
+    rationg: "5",
+    type: "",
+  },
+  {
+    id:2,
+    title: "Вітамін С",
+    photo: "",
+    description: "",
+    rationg: "4",
+    type: "",
+  },
+  {
+    id:3,
+    title: "Вітамін D",
+    photo: "",
+    description: "",
+    rationg: "5",
+    type: "",
+  },
+  {
+    id:4,
+    title: "Вітамін B3",
+    photo: "",
+    description: "",
+    rationg: "3",
+    type: "",
+  },
+  {
+    id:5,
+    title: "Омега-3",
+    photo: "",
+    description: "",
+    rationg: "4",
+    type: "",
+  },
+  {
+    id:6,
+    title: "Magnesium",
+    photo: "",
+    description: "",
+    rationg: "3",
+    type: "",
+  },
+]
+// console.log(arreyOfObjects);
+arreyOfObjects.forEach((item) => {
+  console.log(item);
+
+  let divVitamins = document.createElement('div');
+  divVitamins.innerText = item.title;
+  divVitamins.classList.add('vitamins');
+
+  document.getElementById('p-vitamins').appendChild(divVitamins);
+})
