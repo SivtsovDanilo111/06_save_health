@@ -173,13 +173,21 @@ box-shadow: 10px 20px 10px rgba(0,0,0,0.5);
    justify-content: space-around;
    flex-wrap: wrap;
   }
-   /* .vitamins{
+   .vitamins{
     border: 1px solid #8b7b7b;
-     margin: 10px;
+    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     width: 200px;
-    height: 200px;
-  }  */
-  
+    min-height: 300px;
+    text-align: center;
+  } 
+
+  .vitamins h3{
+    font-size: 24px;
+  }
+  .vitamins img{
+    width: 100px;
+    height: 100px;
+  }
