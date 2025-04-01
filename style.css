@@ -33,7 +33,7 @@ body {
   }
   
   .container {
-    width: 480px;
+    width: 750px;
     margin: 0 auto;
   }
   
@@ -167,27 +167,65 @@ box-shadow: 10px 20px 10px rgba(0,0,0,0.5);
   }
 
   /* Вітаміни */
-  #p-vitamins{
-   display: flex;
-   flex-direction:row ;
-   justify-content: space-around;
-   flex-wrap: wrap;
-  }
-   .vitamins{
+  .vitamins{
+    width: 100%;
     border: 1px solid #8b7b7b;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-    width: 200px;
-    min-height: 300px;
+    
+    
     text-align: center;
   } 
+  
+  #p-vitamins{
+    
+   display: flex;
+   flex-direction:row ;
+   justify-content: space-around;
+   flex-wrap: wrap;
+  }
 
-  .vitamins h3{
+  .vitamin{
+    width: 200px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+   
+ /* id */
+  .vitamin p:first-child{
+      text-align: center;
+      font-size: 10px;
+      color: #8b7b7b;
+  }
+
+  .vitamin h3{
     font-size: 24px;
   }
-  .vitamins img{
+  .vitamin img{
     width: 100px;
     height: 100px;
+  }
+  /* description*/
+  /* .vitamin p:nth-child(2){
+    font-size: 14px;
+    color: #8b7b7b;
+  } */
+
+  .vitamin p:last-child{
+    align-self: flex-end;
+    font-size: 14px;
+    color:#000000;
+  }
+  .vitamin div{
+    margin-top: auto;
+    width: 100%;
   }
