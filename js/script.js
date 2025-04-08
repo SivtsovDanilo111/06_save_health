@@ -107,9 +107,10 @@ data.forEach((item, index) => {
           <p>${item.id}</p>
           <h3>${item.title}</h3>
           <hr>
-          <img src="${item.img}" alt="vitamin" >
+          <img src="img/vitamins/${item.photo}" alt="картина для ${item.title}" onerror="this.onerror=null;this.src='img/vitamins/default.png';" >
           <p>${item.description}</p>
           <div>
+          <img src="img/schema/${item.schema}" alt ="схема для вітамінів" onerror="this.onerror=null;this.src='img/schema/defaut_schema.png';" >
               <p>${'⭐'.repeat(item.rating)+'🤍'.repeat(5-item.rating)}</p>
               <p>${item.type}</p>
           </div>

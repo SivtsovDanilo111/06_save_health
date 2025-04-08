@@ -199,12 +199,15 @@ box-shadow: 10px 20px 10px rgba(0,0,0,0.5);
     border-radius: 5px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   }
+  .vitamin:hover p:first-child{
+  color: #000000;
+  }
    
  /* id */
   .vitamin p:first-child{
       text-align: center;
       font-size: 10px;
-      color: #8b7b7b;
+      color: #cccccc;
   }
 
   .vitamin h3{
@@ -228,4 +231,9 @@ box-shadow: 10px 20px 10px rgba(0,0,0,0.5);
   .vitamin div{
     margin-top: auto;
     width: 100%;
+
+  }
+  .vitamin div img{
+    width: 100%;
+
   }
